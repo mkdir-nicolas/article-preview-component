@@ -83,8 +83,7 @@ main {
   color: hsl(228, 45%, 44%);
 }
 ion-icon {
-  filter: brightness(0) saturate(100%) invert(52%) sepia(16%) saturate(514%)
-    hue-rotate(173deg) brightness(92%) contrast(90%);
+  filter: var(--primaryFilter);
 }
 ion-button {
   display: flex;
