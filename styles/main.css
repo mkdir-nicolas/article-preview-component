@@ -1,13 +1,18 @@
 @import url(./styles.css);
+.sr-only {
+  width: 0;
+  height: 0;
+  position: absolute;
+  overflow: hidden;
+}
 main {
   display: grid;
-  justify-content: center;
-  height: 100vh;
+  place-content: center;
+  min-height: 100vh;
   background-color: var(--light-grayish-blue);
 }
 .card {
   box-shadow: rgba(17, 12, 46, 0.15) 0 3rem 6.25rem 0;
-  margin-top: 4.688rem;
   width: 20.375rem;
   height: 31.875rem;
   border: 0.063rem solid transparent;
@@ -25,7 +30,7 @@ main {
 .card-body {
   padding: 1.938rem;
 }
-.card-body h1 {
+.card-body h2 {
   margin-block-start: 0.125rem;
   font-size: 1rem;
   line-height: 1.5rem;

@@ -1,6 +1,5 @@
 .card {
   display: grid;
-  margin-block-start: 16.25rem;
   grid-template-columns: minmax(15.625rem, 17.75rem) minmax(25rem, 31.25rem);
   width: 45.75rem;
   height: 17.5rem;
@@ -21,7 +20,7 @@
   padding-inline: 2.563rem;
 }
 
-.card-body h1 {
+.card-body h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
