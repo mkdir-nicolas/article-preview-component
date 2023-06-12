@@ -8,9 +8,9 @@ const shareUI = () => {
         <aside class="footer-share fadeEffect" id="shareElement">
             <h2>Share</h2>
             <div class="footer-share-icons">
-                <a href="#" class="facebook"></a>
-                <a href="#" class="twitter"></a>
-                <a href="#" class="pinterest"></a>
+                <a href="#" class="facebook" aria-label="Facebook"></a>
+                <a href="#" class="twitter" aria-label="Twitter"></a>
+                <a href="#" class="pinterest" aria-label="Pinterest"></a>
             </div>
             <span class="triangle-down"></span>
         </aside>
