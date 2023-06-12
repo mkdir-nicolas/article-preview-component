@@ -1,0 +1,58 @@
+.card {
+  display: grid;
+  margin-block-start: 16.25rem;
+  grid-template-columns: minmax(15.625rem, 17.75rem) minmax(25rem, 31.25rem);
+  width: 45.75rem;
+  height: 17.5rem;
+}
+
+.card-header {
+  height: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.card-header img {
+  height: 100%;
+  object-fit: cover;
+  width: 21.813rem;
+}
+.card-body {
+  padding-block-end: 1.5rem;
+  padding-block-start: 1.875rem;
+  padding-inline: 2.563rem;
+}
+
+.card-body h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.card-body p {
+  line-height: 1.125rem;
+}
+.card-footer {
+  padding-inline: 2.563rem;
+}
+.card-footer--author .avatar {
+  margin-inline-end: 0.875rem;
+}
+ion-button {
+  bottom: 1.125rem;
+  right: 2.375rem;
+}
+.footer-share {
+  background-color: var(--very-dark-grayish-blue);
+  left: 34.313rem;
+  top: 8rem;
+  border-radius: 0.625rem;
+  height: 3.438rem;
+  max-width: 15.5rem;
+  padding-inline: 2rem;
+}
+.triangle-down {
+  left: -50%;
+  height: 0;
+  border-left: 1.25rem solid transparent;
+  border-right: 1.25rem solid transparent;
+  border-top: 1.563rem solid var(--very-dark-grayish-blue);
+  position: relative;
+  transform: translate(-50%, 100%);
+}
