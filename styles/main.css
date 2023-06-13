@@ -84,6 +84,7 @@ main {
 }
 ion-icon {
   filter: var(--primaryFilter);
+  pointer-events: none;
 }
 ion-button {
   display: flex;
@@ -119,6 +120,7 @@ ion-button {
   margin-inline-end: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 0.313rem;
+  pointer-events: none;
 }
 .footer-share-icons {
   display: flex;

@@ -5,8 +5,10 @@
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
 
-  --primaryFilter: brightness(0) saturate(100%) invert(52%) sepia(16%) saturate(514%) hue-rotate(173deg) brightness(92%) contrast(90%);
-  --secondaryFilter: brightness(0) saturate(100%) invert(100%) sepia(67%) saturate(266%) hue-rotate(84deg) brightness(109%) contrast(101%);
+  --primaryFilter: brightness(0) saturate(100%) invert(52%) sepia(16%)
+    saturate(514%) hue-rotate(173deg) brightness(92%) contrast(90%);
+  --secondaryFilter: brightness(0) saturate(100%) invert(100%) sepia(67%)
+    saturate(266%) hue-rotate(84deg) brightness(109%) contrast(101%);
 }
 *,
 *::before,
@@ -37,7 +39,6 @@ span {
   }
 }
 .fadeEffect {
-  animation: fadeInAnimation ease 0.8s;
-  animation-iteration-count: 1;
+  animation: fadeInAnimation ease 0.5s;
   animation-fill-mode: forwards;
 }
